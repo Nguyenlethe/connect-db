@@ -1,3 +1,5 @@
+
+// File này không sửa gì thêm
 'use strict';
 require('dotenv').config()
 const fs = require('fs');
@@ -34,4 +36,4 @@ Object.keys(db).forEach(modelName => {
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
-module.exports = db;
+module.exports = db;  //  Lấy ra được all db
